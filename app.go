@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-	files, err := ioutil.ReadDir("sprites")
+	files, err := ioutil.ReadDir(".")
 	if err != nil {
 		log.Fatal(err)
 	}
